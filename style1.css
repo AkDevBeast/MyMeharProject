@@ -1,14 +1,19 @@
 #Image{
     width:200px;
     height: 200px;
-    vertical-align: middle;
-    display: inline;
-    margin-top: 20px;
+    
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: -15%;
 }
 
 h1{
     vertical-align: middle;
     float: left;
+}
+
+h3{
+    margin-left: 12px;
 }
 
 .Cm{
@@ -22,18 +27,41 @@ h1{
 }
 
 #Nav{
-    display: inline;
+    display: inline-block;
 }
 
 #Info{
     width: 20px;
+    
 }
 
-#ImageDiv{
-    margin-top: 20px;
-    margin-left: 50px;
-}
+
 
 h3{
     color: white;
 }
+
+body{
+ display: flexbox;
+ background-image: linear-gradient(to top left,rgb(16, 240, 16),rgb(28, 73, 219));
+} 
+
+ #conback{
+    height: 800px;
+    background-image: linear-gradient(to bottom right, rgb(236, 26, 89) , rgb(255, 166, 0));
+    background-repeat: no-repeat;
+}
+
+#linkInfo{
+margin-top: 12px;
+margin-left: 700px;
+font-size: 20px;
+
+}
+
+#QrCode{
+    width: 100px;
+    height:100px;
+    margin-left: 600px;
+}
+
