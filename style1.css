@@ -1,0 +1,35 @@
+#Image{
+    width:200px;
+    height: 200px;
+    vertical-align: middle;
+    display: inline;
+    margin-top: 20px;
+}
+
+h1{
+    vertical-align: middle;
+    float: left;
+}
+
+.Cm{
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+#back{
+    width: 20px;
+    
+}
+
+#Nav{
+    display: inline;
+}
+
+#Info{
+    width: 20px;
+}
+
+#ImageDiv{
+    margin-top: 20px;
+    margin-left: 50px;
+}
