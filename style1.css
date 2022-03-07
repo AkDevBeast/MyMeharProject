@@ -3,8 +3,8 @@
     height: 200px;
     
     display: inline-block;
-    margin-top: 70px;
-    margin-left: -15%;
+    margin-top: 0px;
+    margin-left: 550px;
 }
 
 h1{
@@ -28,11 +28,13 @@ h3{
 
 #Nav{
     display: inline-block;
+    margin-left: 30px;
 }
 
 #Info{
     width: 20px;
-    
+    margin-left: 1025px;
+    margin-top: 25px;
 }
 
 
@@ -65,3 +67,17 @@ font-size: 20px;
     margin-left: 600px;
 }
 
+.header{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+}
+
+/* #Ainfo{
+    margin="0px";
+} */
